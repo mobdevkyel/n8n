@@ -34,4 +34,4 @@ echo "N8N INSTALADO COM SUCESSO!"
 echo "Acesse a URL: http://${host}:5678"
 
 
-# curl -sSL https://autotic.com.br/setup-n8n-dock... | bash
+# curl -sSL https://raw.githubusercontent.com/mobdevkyel/n8n/main/n8n.sh | bash
