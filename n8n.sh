@@ -1,4 +1,4 @@
-#!/bin/bash
+la#!/bin/bash
 # Instalador do N8N em Docker
 # Autor: Autotic
 # Versao: 0.1
@@ -18,7 +18,7 @@ sudo apt install -y docker.io
 sudo timedatectl set-timezone America/Sao_Paulo
 
 # Executa o contêiner do N8N com Docker
-sudo docker run -d --restart unless-stopped --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
+sudo docker run -d --restart unless-stopped --name n8n_sheila -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 
 # Inicia o N8N com o recurso de tunelamento
 sudo docker exec -it n8n n8n start --tunnel
