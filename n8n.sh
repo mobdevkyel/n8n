@@ -36,4 +36,5 @@ echo "Acesse a URL: http://${host}:5678"
 
 # curl -sSL https://raw.githubusercontent.com/mobdevkyel/n8n/main/n8n.sh | bash
 # curl -sSL https://autotic.com.br/setup-n8n-docker.sh | bash
+# wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
 
